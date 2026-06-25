@@ -1,11 +1,11 @@
 # Apple Inc. (AAPL) — 3-Statement Financial Model & Forecast
 
-A fully-linked 3-statement model (Income Statement, Balance Sheet, Cash Flow Statement) for Apple Inc.,
-built from real FY2023–FY2025 SEC filings, with a 3-year driver-based forecast and a built-in "what if
-revenue drops 10%" scenario toggle — the kind of model an FP&A analyst builds and maintains day to day.
+A fully linked 3-statement model (Income Statement, Balance Sheet, Cash Flow Statement) for Apple Inc.,
+built from real FY2023–FY2025 SEC filings, with a 3-year driver based forecast and a built in "what if
+revenue drops 10%" scenario toggle. 
 
 **Portfolio project #1 of 3** mapping directly to FP&A job descriptions. ([Project 2: automated reporting
-pipeline](https://github.com/KarisFang/fpa-portfolio-reporting-pipeline) · [Project 3: budget-vs-actual variance dashboard](#) — coming soon)
+pipeline](#) · [Project 3: budget-vs-actual variance dashboard](#) — coming soon)
 
 ## What's in this repo
 
