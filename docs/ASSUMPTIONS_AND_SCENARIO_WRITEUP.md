@@ -26,8 +26,8 @@ or pulled from secondary aggregator sites for the historical periods.
   assumptions per forecast year, anchored to Apple's recent historical ranges (e.g., gross margin trending
   from 44.1% in FY23A to 46.9% in FY25A; FY26E–FY28E assumes continued modest expansion to 47.2–47.7%).
 - **Working capital (AR, Inventory, AP):** forecast using Days Sales Outstanding (33 days), Days Inventory
-  Outstanding (9 days) and Days Payable Outstanding (113 days) — derived from Apple's FY2025A actuals —
-  rather than a flat percent-of-revenue, which is the standard FP&A approach for working capital.
+  Outstanding (9 days) and Days Payable Outstanding (113 days) that is derived from Apple's FY2025A actuals
+  rather than a flat percent of revenue, which is the standard FP&A approach for working capital.
 - **Other current/non-current assets & liabilities, vendor non-trade receivables, deferred revenue:**
   forecast as a fixed % of revenue, based on FY2025A actual ratios.
 - **Capex and D&A:** modeled as % of revenue (3.0% and 2.8% respectively), consistent with Apple's recent
@@ -51,7 +51,7 @@ or pulled from secondary aggregator sites for the historical periods.
 ## Balance check
 
 Row 40 of the Balance Sheet tab (`Total Assets − Total Liabilities & Equity`) is **zero in every single
-period**, including all three forecast years and under all three scenarios. This isn't cosmetic — it's the
+period**, including all three forecast years and under all three scenarios. This isn't cosmetic but it's the
 proof that every balance sheet account that moves is matched by a corresponding line in the cash flow
 statement or the income statement. This is the standard a real FP&A model is held to before it ever goes in
 front of a CFO.
@@ -60,7 +60,7 @@ front of a CFO.
 
 The Assumptions tab (cell B4) has a dropdown: **Base**, **Bear (-10% Rev Shock)**, **Bull (Upside)**. Picking
 "Bear" sets FY2026E revenue growth to **-10%** instead of the Base Case's +8%, while every other assumption
-(margins, opex ratios, tax rate, working capital, capex) stays unchanged — isolating the pure effect of the
+(margins, opex ratios, tax rate, working capital, capex) stays unchanged, isolating the pure effect of the
 revenue shock.
 
 **Result (FY2026E, Bear vs. Base):**
@@ -74,7 +74,7 @@ revenue shock.
 fixed, operating expenses scale down proportionally with revenue, so the net income hit roughly tracks the
 revenue hit in this simplified model. In a real-world downturn, R&D and SG&A are largely *fixed* in the
 short run (headcount, leases, committed programs), so an actual 10% revenue shock would compress margins
-*and* hit net income by meaningfully more than 10% — which is exactly the kind of insight an FP&A analyst
+*and* hit net income by meaningfully more than 10% which is exactly the kind of insight an FP&A analyst
 would flag to leadership alongside the model output. The Sensitivity Table tab makes this trade-off explicit
 across a full grid of revenue growth and gross margin combinations.
 
