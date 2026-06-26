@@ -13,7 +13,7 @@ pipeline](https://github.com/KarisFang/fpa-portfolio-reporting-pipeline) · [Pro
 |---|---|
 | [`model/AAPL_3statement_model.xlsx`](model/AAPL_3statement_model.xlsx) | The model. 7 tabs, 357 live formulas, zero formula errors, balance check = 0 in every period. |
 | [`docs/ASSUMPTIONS_AND_SCENARIO_WRITEUP.md`](docs/ASSUMPTIONS_AND_SCENARIO_WRITEUP.md) | 1-page write-up of every assumption, every simplification, and the revenue-shock scenario result. |
-| [`build_model.py`](build_model.py) | The Python (openpyxl) script that generates the workbook from scratch — included so the build is fully reproducible and auditable. |
+| [`build_model.py`](build_model.py) | The Python (openpyxl) script that generates the workbook from scratch, so the build is fully reproducible and auditable. |
 
 ## Highlights
 
@@ -28,7 +28,7 @@ pipeline](https://github.com/KarisFang/fpa-portfolio-reporting-pipeline) · [Pro
 
 ## How to use it
 
-1. Download `model/AAPL_3statement_model.xlsx` and open in Excel (or Google Sheets / LibreOffice).
+1. Download `model/AAPL_3statement_model.xlsx` and open in Excel (or Google Sheets).
 2. Go to the **Assumptions** tab, cell `B4`, and pick a scenario from the dropdown.
 3. Watch the **Income Statement**, **Balance Sheet**, and **Cash Flow Statement** tabs update.
 4. See **Scenario Analysis** for a side-by-side Base/Bear/Bull comparison, and **Sensitivity Table** for the
@@ -41,8 +41,8 @@ pip install openpyxl
 python3 build_model.py
 ```
 
-This regenerates `model/AAPL_3statement_model.xlsx` identically — useful for extending the model (add a
-segment-level revenue build, add a debt schedule, etc.) without hand-editing formulas in Excel.
+This regenerates `model/AAPL_3statement_model.xlsx` identically which is useful for extending the model (add a
+segment-level revenue build, add a debt schedule, etc.) without manually formulas in Excel.
 
 ---
-Built by Karis Fang as a portfolio project for FP&A roles.
+Built by Karis Fang as a finance data analyst portfolio project. 
