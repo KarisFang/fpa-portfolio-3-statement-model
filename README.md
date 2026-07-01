@@ -44,5 +44,12 @@ python3 build_model.py
 This regenerates `model/AAPL_3statement_model.xlsx` identically which is useful for extending the model (add a
 segment-level revenue build, add a debt schedule, etc.) without manually formulas in Excel.
 
+## Contributors
+- [@KarisFang](https://github.com/KarisFang) — Analysis & SQL
+- [Claude](https://claude.ai) (Anthropic) — Code generation & dashboard
+
+## Data Sources
+- **Telecom customer dataset** — Synthetic data generated for portfolio purposes
+- **Apple Inc.** — Financial statements via SEC EDGAR
 ---
 Built by Karis Fang as a finance data analyst portfolio project. 
